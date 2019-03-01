@@ -28,3 +28,7 @@ thead {
 tr:nth-child(even) {
     background-color: rgba(88, 129, 242, 0.37);
 }
+
+.capitalize {
+    text-transform: capitalize;
+}

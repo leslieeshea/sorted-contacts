@@ -17,3 +17,12 @@ export function makeContactsTemplate(contact) {
     template.innerHTML = html;
     return template.content;
 }
+
+const contactsTableNode = document.getElementById('contacts-table');
+
+export default function loadContacts(contacts) {
+    contacts.forEach(contact => {
+        const contactRow = makeContactsTemplate(contact);
+        contactsTableNode.appendChild(contactRow);
+    });
+}
