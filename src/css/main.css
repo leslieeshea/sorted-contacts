@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 * {
@@ -16,17 +16,23 @@ h1 {
 }
 
 table {
-    width: 1000px;
+    width: 1300px;
     border-collapse: collapse;
 }
 
 thead {
-    background-color: rgb(88, 129, 242);
+    background-color: rgb(88, 124, 242);
     text-align: left;
+    font-size: 1.1em;
+}
+
+th {
+    border: 2px solid black;
+    padding: 4px;
 }
 
 tr:nth-child(even) {
-    background-color: rgba(88, 129, 242, 0.37);
+    background-color:  rgba(88, 124, 242, 0.18);
 }
 
 .capitalize {
